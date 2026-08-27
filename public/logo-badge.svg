@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2b44c"/>
+      <stop offset="100%" stop-color="#c2922e"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer frame (hairline) -->
+  <rect x="42" y="42" width="156" height="156" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <!-- Corner crop marks ( + signs ) -->
+  <g stroke="url(#gold)" stroke-width="5" stroke-linecap="square">
+    <!-- Top-left + -->
+    <line x1="70" y1="62" x2="70" y2="82"/>
+    <line x1="60" y1="72" x2="80" y2="72"/>
+    <!-- Top-right + -->
+    <line x1="170" y1="62" x2="170" y2="82"/>
+    <line x1="160" y1="72" x2="180" y2="72"/>
+    <!-- Bottom-left + -->
+    <line x1="70" y1="158" x2="70" y2="178"/>
+    <line x1="60" y1="168" x2="80" y2="168"/>
+    <!-- Bottom-right + -->
+    <line x1="170" y1="158" x2="170" y2="178"/>
+    <line x1="160" y1="168" x2="180" y2="168"/>
+  </g>
+  <!-- Inner gold block -->
+  <rect x="68" y="68" width="104" height="104" fill="url(#gold)"/>
+  <!-- HITC wordmark (white, bold, classic slab) -->
+  <g fill="#ffffff" font-family="Arial Black, Helvetica, sans-serif" font-weight="900" letter-spacing="2">
+    <!-- H -->
+    <rect x="86" y="102" width="10" height="40"/>
+    <rect x="86" y="117" width="34" height="10"/>
+    <rect x="110" y="102" width="10" height="40"/>
+    <!-- I -->
+    <rect x="128" y="102" width="10" height="40"/>
+    <!-- T -->
+    <rect x="146" y="102" width="30" height="10"/>
+    <rect x="156" y="102" width="10" height="40"/>
+    <!-- C -->
+    <path d="M200 102 h-12 c-8.8 0-16 7.2-16 16 v8 c0 8.8 7.2 16 16 16 h12 v-10 h-12 c-3.3 0-6-2.7-6-6 v-8 c0-3.3 2.7-6 6-6 h12 z"/>
+  </g>
+</svg>
